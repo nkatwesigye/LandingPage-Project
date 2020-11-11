@@ -131,6 +131,11 @@ section {
         max-width: 50em;
         padding: 4em;
     }
+
+    .navbar__menu li,
+      .navbar__menu .menu__link {
+        display: inline-block;
+      }
 }
 
 section:nth-of-type(even) .landing__container {
